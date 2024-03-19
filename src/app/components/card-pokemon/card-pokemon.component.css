@@ -1,0 +1,31 @@
+.card {
+  background-color: rgb(24, 24, 24);
+  width: 260px;
+  height: 360px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 10px;
+  border-radius: var(--border-radius);
+}
+.img-container {
+  width: 90%;
+  height: 75%;
+  background-color: rgb(73, 73, 73);
+  border-radius: var(--border-radius);
+}
+.pokemon-types {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
+}
+.pokemon-types > li {
+  background-color: orange;
+  padding: 5px 20px;
+  color: black;
+  font-weight: bold;
+  border-radius: var(--border-radius);
+}
