@@ -4,6 +4,6 @@
     <img [src]="img_url" [alt]="name + ' graphics'" />
   </div>
   <ol class="pokemon-types">
-    <li *ngFor="let type of types">{{ type }}</li>
+    <li *ngFor="let type of types" [ngClass]="type">{{ type[0].toUpperCase() + type.slice(1) }}</li>
   </ol>
 </div>

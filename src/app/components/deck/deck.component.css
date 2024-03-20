@@ -1,0 +1,39 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  row-gap: 10px;
+}
+.cards {
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
+  row-gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.pagination {
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
+}
+button {
+  border-style: none;
+  background-color: rgb(51, 51, 51);
+  border-radius: var(--border-radius);
+  min-width: 50px;
+  font-size: medium;
+  font-weight: bold;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: rgb(116, 116, 116);
+  transform: translate(1px, -1px);
+  box-shadow: -5px 5px 5px rgb(236, 236, 236);
+}
+button:active {
+  background-color: rgb(88, 88, 88);
+}

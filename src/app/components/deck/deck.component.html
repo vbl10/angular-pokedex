@@ -1,0 +1,14 @@
+<div class="content">
+  <div class="pagination">
+    <button>1</button>
+    <button>&lt;&lt;</button>
+    <button>&gt;&gt;</button>
+    <button>n</button>
+  </div>
+  <div class="cards">
+    <app-card-pokemon
+      *ngFor="let i of [1, 2, 3, 4, 5, 6, 7, 8]"
+      [id]="i"
+    ></app-card-pokemon>
+  </div>
+</div>
