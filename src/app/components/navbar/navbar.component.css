@@ -1,0 +1,33 @@
+.background {
+  background-color: var(--color-main);
+  color: white;
+  font-size: 20pt;
+  font-weight: bold;
+  text-shadow: 0 2px 2px gray;
+}
+.container {
+  display: grid;
+  grid-template-columns: 0fr 1fr;
+  max-width: var(--max-width);
+  margin: auto;
+  align-items: end;
+}
+.options {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 100px;
+  margin-bottom: 10px;
+  color: whitesmoke;
+}
+.option {
+  cursor: pointer;
+}
+.option:hover {
+  transform: translate(0, -2px);
+  color: white;
+}
+.selected {
+  text-decoration: underline;
+  color: white;
+}

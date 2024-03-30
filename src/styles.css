@@ -1,4 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+  --border-radius: 10px;
+  --gap: 10px;
+  --max-width: 1070px;
+  --color-main: rgb(31, 31, 31);
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .normal {
   background-color: rgb(195, 181, 155);
 }
@@ -77,14 +89,4 @@
 
 .cyber {
   background-color: rgb(57, 86, 164);
-}
-
-
-:root {
-    --border-radius: 10px;
-}
-* {
-  margin: 0;
-  padding: 0;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }

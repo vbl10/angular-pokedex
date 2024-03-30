@@ -1,1 +1,9 @@
+<app-navbar
+  [options]="['Browse', 'Search']"
+  [(selected)]="selected"
+></app-navbar>
+<div [ngSwitch]="selected">
+  <app-deck *ngSwitchCase="0"></app-deck>
+  <app-search *ngSwitchCase="1"></app-search>
+</div>
 <router-outlet></router-outlet>

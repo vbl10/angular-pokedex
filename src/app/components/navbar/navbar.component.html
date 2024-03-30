@@ -1,0 +1,14 @@
+<div class="background">
+  <div class="container">
+    <h1>Pokedex</h1>
+    <div class="options">
+      <span
+        class="option"
+        *ngFor="let op of options; let i = index"
+        [ngClass]="selected == i ? 'selected' : ''"
+        (click)="select(i)"
+        >{{ op }}</span
+      >
+    </div>
+  </div>
+</div>
